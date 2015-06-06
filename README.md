@@ -24,9 +24,8 @@ The following commands can be used to install some of the dependencies on CentOS
 
 Enter the following commands in a terminal. Be patient while g++ is running, it'll take a few minutes.
 
-    git https://github.com/stanlog/xbt/misc
-    git https://github.com/stanlog/xbt/Tracker
-    cd xbt/Tracker
+    git clone https://github.com/stanlog/xbt.git
+    cd xbt/xbt/Tracker
     ./make.sh
     cp xbt_tracker.conf.default xbt_tracker.conf
 
